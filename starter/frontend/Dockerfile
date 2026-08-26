@@ -14,7 +14,8 @@ RUN npm ci
 # Copy code
 COPY . .
 
-ENV REACT_APP_MOVIE_API_URL=http://a2b591e70251e47cb9692d57f4e78170-1147635499.us-east-1.elb.amazonaws.com
+ARG REACT_APP_MOVIE_API_URL
+ENV REACT_APP_MOVIE_API_URL=$REACT_APP_MOVIE_API_URL
 
 # Build the app
 RUN npm run build
