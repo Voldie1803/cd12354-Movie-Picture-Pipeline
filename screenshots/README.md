@@ -29,6 +29,8 @@ Raw JSON response returned from the backend `/movies` endpoint:
 
 * **`kubectl get nodes`**:
   ![Kubectl Get Nodes 1](Screenshot%202026-08-26%20150743.png)
+
+* **`kubectl get pods`**:
   ![Kubectl Get Nodes 2](Screenshot%202026-08-26%20150752.png)
 
 * **`kubectl describe deploy frontend`**:
